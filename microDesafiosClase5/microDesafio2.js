@@ -45,14 +45,14 @@ console.log(total('Tomas','Montana'));
 
 //-----------------------------------otra manera de hacerlo
 
-/* const RATE = {'Jamon': 30, 'Queso': 25, 'Salsa Tomate': 5, 'Mayonesa': 5, 'Mostaza': 5, 'Tomate':15} */
-/* const hamburguesaRATE = {'Carne a la parrila': 1800, 'Pollo': 1500, 'Vegetariana': 1200} */
-/*  */
-/* let tipoCondimento = 'Jamon'; */
-/* let tipoHamburguesa = 'Carne a la parrilla'; */
-/* let usuario = 'Tomas Montana'; */
-/* let valorTotal = 0 */
-/* function hamburguesa(tipoCondimento, tipoHamburguesa) { */
-/*     return RATE ([tipoCondimento] + tipoHamburguesa + valorTotal);      */
-/* } */
-/*  console.log('Estimado ' + usuario + ', su hamburguesa final es, ' + tipoHamburguesa + ' acompañada con: ' + tipoCondimento + ', esto tendra un valor de ' + '$ ' + valorTotal);  */
+const RATE = {'Jamon': 30, 'Queso': 25, 'Salsa Tomate': 5, 'Mayonesa': 5, 'Mostaza': 5, 'Tomate':15}
+const hamburguesaRATE = {'Carne a la parrila': 1800, 'Pollo': 1500, 'Vegetariana': 1200}
+
+let tipoCondimento = 'Jamon';
+let tipoHamburguesa = 'Carne a la parrilla';
+let usuario = 'Tomas Montana';
+let valorTotal = 0
+function hamburguesa(tipoCondimento, tipoHamburguesa) {
+    return RATE ([tipoCondimento] + tipoHamburguesa + valorTotal);     
+}
+ console.log('Estimado ' + usuario + ', su hamburguesa final es, ' + tipoHamburguesa + ' acompañada con: ' + tipoCondimento + ', esto tendra un valor de ' + '$ ' + valorTotal); 
