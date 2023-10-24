@@ -1,4 +1,4 @@
-// Micro desafio 2, sueldo
+/*Micro desafio 2, sueldo*/
 
  let   nombre = 'Tomas';
  let   apellido = 'Montana';
