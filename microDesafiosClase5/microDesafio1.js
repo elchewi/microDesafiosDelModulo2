@@ -93,3 +93,4 @@ function alquilerAutos(tipoVehiculo, diasAlquiler, sillaBebeRATE) {
 }
 console.log(alquilerAutos(tipoVehiculo, diasAlquiler, sillaBebeRATE));
 console.log('Estimado cliente: en base al tipo de vehiculo ' + tipoVehiculo + ' alquilado,  consideramos los ' + diasAlquiler + ' utilizados, el monto total a pagar es de $' + alquilerAutos (tipoVehiculo, diasAlquiler, sillaBebeRATE));
+// Micro Desafio terminado
